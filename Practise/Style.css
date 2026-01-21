@@ -1,0 +1,31 @@
+body{
+    background-color: wheat;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: red;
+    line-height: 30px;
+}
+h3{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+p::selection {
+  background-color: yellow;
+  color: red;
+  text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+}
