@@ -1,29 +1,12 @@
-*{
-    text-align: center;
-    font-family: Georgia;
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top:100px;
+    transition: margin-top 2s ease-in 0.2s;
 }
-#mainTopic{
-    background-color: blue;
-}
-p{
-    color: white;
-    background-color: cornflowerblue;
-}
-button{
-    background-color: purple;
-    color: azure;
-}
-
-button:hover{
-    background-color: yellow;
-    color: blue;
-}
-p:nth-of-type(2n-1){
-    color: yellow;
-}
-h1::first-letter{
-    color:red;
-}
-label{
-    color: darkgreen;
+div:hover{
+    margin-top: 400px;  
+    background-color: rgba(0, 255, 0, 0.5);
 }
