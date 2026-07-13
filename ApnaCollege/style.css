@@ -1,12 +1,44 @@
-div{
-    height: 100px;
-    width: 100px;
-    background-color: rgba(255, 0, 0, 0.5);
-    margin: 0 auto;
-    margin-top:100px;
-    transition: margin-top 2s ease-in 0.2s;
+.container {
+    width: 500px;
+    height: 600px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;.card {
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px;
+      }
+      
+      img {
+        width: 100%;
+        border-radius: 25px;
+      }
+      
+      h2 {
+        color: #d56f3e;
+      }
+      
+      span {
+        color: #9d6f24;
+      }
+      
+      h4 {
+        text-align: right;
+        color: #3c787e;
+      }
+      
+      #pets {
+        display: flex;
+        justify-content: space-evenly;
+      }
 }
-div:hover{
-    margin-top: 400px;  
-    background-color: rgba(0, 255, 0, 0.5);
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-align: center;
 }
